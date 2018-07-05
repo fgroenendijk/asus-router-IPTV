@@ -4,7 +4,8 @@
 # /usr/sbin/robocfg vlan 7 ports "0t 3t 8t"
 
 # Setup VLAN4 on the CPU as well so we can talk to it
-/usr/sbin/robocfg vlan 4 ports "4t 7t"
+#/usr/sbin/robocfg vlan 4 ports "4t 7t"
+/usr/sbin/robocfg vlan 4 ports "4t 8t"
 
 # Add VLAN4 as a physical interface
 /sbin/vconfig add eth0 4
